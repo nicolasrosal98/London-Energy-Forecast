@@ -36,6 +36,11 @@ The goal of this section was to clean and combine all available datasets into a 
 * 
 * 
 
+
+NOTE: After the 'Clustering for Feature Engineering Section', we have created a 3D plot of the cluster that could not be visualised in the jupyter notebooks uploaded. This is that plot:
+
+![3D Clustering Plot](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/newplot.png)
+
 <br /><br />
 
 
