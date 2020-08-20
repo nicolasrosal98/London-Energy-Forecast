@@ -61,16 +61,16 @@ The goal of section was to further explore the data set created after 'Cleaning 
 ![Heatmap](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/heatmap.png)
 
 * Energy Sum Analysis Over Time -- Plotting energy consumption over time helped to understand how consumption varies throughout the years (months/seasons). Further analysis was made with the different energy sum averages per part of day. <br /> 
-![Energy Sum over Time](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/energyvstime)
+![Energy Sum over Time](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/energyvstime.png)
 
 * Energy Sum per Type of Contract -- Plotting energy consumptions per contract type allows to see differences in behaviour between different type of clients.<br /> 
-![Energy Sum vs. Contract Type](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/ContractType)
+![Energy Sum vs. Contract Type](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/ContractType.png)
 
 * Energy Sum per Acorn -- Plotting energy consumption per Acorn helped analyse whether belonging to different acorn groups would affect consumption patters and behaviours. <br /> 
-![Energy Sum vs. Acorn](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/acorns)
+![Energy Sum vs. Acorn](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/acorns.png)
 
 * Feature Importance -- To reduce the complexity of the data, a Random Forest's feature importance attribute was used to discover the features that would be important to add in the final dataset. Due to poor visualisations, a picture of the feature importance bar plot created is included below. In here, 'Avg.Dawn', 'Avg.Morning_Afternoon', 'Avg.Evening', and 'Avg.Night' were identified as the most important features. This finding, together with those of the heatmap correlation analysis, led to the decision of selecting only these four features for the modelling section. <br /> 
-![Feature Importance](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/featureimportance)
+![Feature Importance](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/featureimportance.png)
 
 <br /><br />
 
