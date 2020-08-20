@@ -133,20 +133,20 @@ The goal of this section was to build an LSTM model capable of fitting energy tr
  <br /> <br />
  
 * All Features Model
+
 | Trend All Features Overall Energy Test MAE | 
-| -------------------------------- | 
+| ------------------------------------------ | 
 | Score: 0.12122  |  
 |    ![All Features Forecast Overall Energy](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/trendallfeatures.png)     |
 <br />
 
 | Forecast All Features Overall Energy Test MAE | 
-| ----------------------- | 
+| --------------------------------------------- | 
 | Score: 0.54560 |  
 |    ![Acorn Forecast](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/forecastfeatures.png)     |
 <br />
   
-* Best - Overall Energy in London Model.
-This model had the lowest trend and forecast MAE out of all the models. 
+* Best Model -- Overall Energy in London Model. This model had the lowest trend and forecast MAE out of all the models. 
 
 | Forecast Test MAE |  
 | ----------------- | 
