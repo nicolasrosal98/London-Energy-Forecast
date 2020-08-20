@@ -86,18 +86,52 @@ The goal of this section was to build an LSTM model capable of fitting energy tr
 
 
 #### Conclusions
+<br /> 
 
-* overall energy model
-  trend test MAE - 0.059765469282865524 (PICTURE)
-  forecast test MAE - 0.41751142945194003 (PICTURE)
-  
-* energy model by acorn
-  forecast test MAE average - 0.6862249281035474 (PICTURE)
-  
-* combination 
-  forecast test MAE overall Energy - 0.43439047026906075 (PICTURE)
-  forecast test MAE acorn - 0.6315548906462493 (PICTURE)
+* Overall Energy in London Model 
 
+| Trend Test MAE | 
+| -------------- | 
+| Score: 0.0597  |  
+|    ![Trend](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/energytrend.png)     |
+<br />
+
+| Forecast Test MAE |  
+| ----------------- | 
+| Score: 0.41751    |  
+|     ![Forecast](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/energyforecast.png)      | 
+
+<br /> <br /> 
+
+* Energy Model by Acorn
+
+| Trend Test MAE | 
+| -------------- | 
+| ![Trend](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/acorntrend.png)  |  
+<br />
+
+| Forecast Test MAE |  
+| ----------------- | 
+|      0.68622      | 
+| ![Forecast](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/acornforecast.png)    |  
+
+ <br /> <br /> 
+  
+* Combined Models 
+
+| Forecast Test MAE Overall Energy | 
+| -------------------------------- | 
+| Score: 0.43439  |  
+|    ![Overall Forecast](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/energyforecastcombined.png)     |
+<br />
+
+| Forecast Test MAE Acorn | 
+| ----------------------- | 
+| Score: 0.63155 |  
+|    ![Acorn Forecast](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/acornforecastcombined.png)     |
+
+ <br /> <br />
+ 
 * All features
   trend all features overall energy - 0.12122230231761932 (Pictures)
   forecast all features overall energy - 0.545603564188161 (Pictures)
