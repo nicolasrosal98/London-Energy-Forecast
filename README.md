@@ -76,9 +76,34 @@ The goal of section was to further explore the data set created after 'Cleaning 
 
 ### 3. Modelling
 
-<br /><br />
+The goal of this section was to build an LSTM model capable of fitting energy trends and forecasting energy consumption.
 
-## Conclusions
+* Why LSTM? -- Due to the nature of the problem, a model that was capable of dealing with time-series data was necessary. In this case, LSTM was chosen over GRU due to its capacity to remember longer sequences that would be needed to compute more accurate forecasts. <br /> 
+
+* Why different architectures? -- It was found that a TimeDistributed output layer reduced significantly the MAE of forecasting tasks. Thus, this model was created with two different output layers that could change to fit the assigment to be performed (Trend recognition or Forecasting).<br /> 
+
+* Tuning (Scores) -- The model was tuned by changing the number of LSTM layers and the number of LSTM units per layer, using dropout, l1, l2, and batch normalization regularizations, and modifying the optimizer and output layer. The best performing architecture consisted of five LSTM layers with 64 Units, Dropout of 25%, one dense time distributed output layer, compiled with a RMSProp optimizer.<br /> 
+
+
+#### Conclusions
+
+* overall energy model
+  trend test MAE - 0.059765469282865524 (PICTURE)
+  forecast test MAE - 0.41751142945194003 (PICTURE)
+  
+* energy model by acorn
+  forecast test MAE average - 0.6862249281035474 (PICTURE)
+  
+* combination 
+  forecast test MAE overall Energy - 0.43439047026906075 (PICTURE)
+  forecast test MAE acorn - 0.6315548906462493 (PICTURE)
+
+* All features
+  trend all features overall energy - 0.12122230231761932 (Pictures)
+  forecast all features overall energy - 0.545603564188161 (Pictures)
+  
+* Best
+  forecast test MAE - 0.41751142945194003 (PICTURE)
 
 <br /><br />
 
