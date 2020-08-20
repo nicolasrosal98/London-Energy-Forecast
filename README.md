@@ -85,7 +85,7 @@ The goal of this section was to build an LSTM model capable of fitting energy tr
 * Tuning (Scores) -- The model was tuned by changing the number of LSTM layers and the number of LSTM units per layer, using dropout, l1, l2, and batch normalization regularizations, and modifying the optimizer and output layer. The best performing architecture consisted of five LSTM layers with 64 Units, Dropout of 25%, one dense time distributed output layer, compiled with a RMSProp optimizer.<br /> 
 
 
-#### Conclusions
+#### Outcomes
 <br /> 
 
 * Overall Energy in London Model 
@@ -154,7 +154,7 @@ The goal of this section was to build an LSTM model capable of fitting energy tr
 |     ![Forecast](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/energyforecast.png)      |
 <br /><br />
 
-## Limitations and Suggestions
+## Conclusions, Limitations and Suggestions
 
 <br /><br />
 
