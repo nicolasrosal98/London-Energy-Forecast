@@ -74,7 +74,7 @@ The goal of section was to further explore the data set created after 'Cleaning 
 
 <br /><br />
 
-### 3. Modelling
+### 3. Modelling ([nbviewer version](https://nbviewer.jupyter.org/github/nicolasrosal98/London-Energy-Forecast/blob/master/Jupyter%20Notebooks/Modeling.ipynb))
 
 The goal of this section was to build an LSTM model capable of fitting energy trends and forecasting energy consumption.
 
@@ -156,8 +156,23 @@ The goal of this section was to build an LSTM model capable of fitting energy tr
 
 ## Conclusions, Limitations and Suggestions
 
+* Conclusions
+
+* Limitations
+
+* Suggestions
+
 <br /><br />
 
 ## Sources
 
+Humam Fauzi. "Multiple Stock Prediction using Single NN. Kaggle". [link](https://nbviewer.jupyter.org/github/nicolasrosal98/London-Energy-Forecast/blob/master/Jupyter%20Notebooks/Exploratory%20Data%20Analysis.ipynb).
+
+Ian Felton. "A Quick Example of Time-Series Prediction using Long Short-Term Memory (LSTM) Networks". Medium. [link](https://medium.com/swlh/a-quick-example-of-time-series-forecasting-using-long-short-term-memory-lstm-networks-ddc10dc1467d)
+
+Jason Brownlee. "How to Develop LSTM Models for Time Series Forecasting". Machine Learning Mastery.[link](https://machinelearningmastery.com/how-to-develop-lstm-models-for-time-series-forecasting/)
+
+jrhea. "Energy Consumption Forecast". Kaggle Notebook. [link](https://www.kaggle.com/rheajgurung/energy-consumption-forecast)
+
+Max Halford. "FAMD". Prince Documentations. [link](https://github.com/MaxHalford/prince#factor-analysis-of-mixed-data-famd)
 <br /><br />
