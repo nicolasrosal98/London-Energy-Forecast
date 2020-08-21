@@ -2,6 +2,8 @@
 
 Using an LSTM model to forecast energy consumption in London (analysis by Acorns included).
 
+Authors: Omar Alejandro Martínez and Nicolás Rosal
+
 ## Datasets
 
 The datasets required can be found in the following [Kaggle link](https://www.kaggle.com/jeanmidev/smart-meters-in-london)
@@ -176,3 +178,11 @@ jrhea. "Energy Consumption Forecast". Kaggle Notebook. [link](https://www.kaggle
 
 Max Halford. "FAMD". Prince Documentations. [link](https://github.com/MaxHalford/prince#factor-analysis-of-mixed-data-famd)
 <br /><br />
+
+## About the Authors
+
+* LinkedIn: 
+
+[Omar Alejandro Martínez](https://www.linkedin.com/in/omar-martinez-garcia-9b2214176/)
+
+[Nicolás Rosal](www.linkedin.com/in/nicolasrosal98)
