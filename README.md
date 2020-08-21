@@ -31,7 +31,7 @@ Acorn User Guide to understand consumer classification: [guide](https://acorn.ca
 
 ## Methodology
 
-### 1. Cleaning and Feature Engineering ([nbviewer version](https://nbviewer.jupyter.org/github/nicolasrosal98/London-Energy-Forecast/blob/master/Jupyter%20Notebooks/Data%20Cleaning%20-%20Feature%20Engineering.ipynb))
+### 1. Cleaning and Feature Engineering ([jupyter notebook](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Jupyter%20Notebooks/Data%20Cleaning%20-%20Feature%20Engineering.ipynb))([nbviewer version](https://nbviewer.jupyter.org/github/nicolasrosal98/London-Energy-Forecast/blob/master/Jupyter%20Notebooks/Data%20Cleaning%20-%20Feature%20Engineering.ipynb))
 
 The goal of this section was to clean and combine all available datasets into a single dataset that would be easier to handle for exploratory data analysis. Moreover, during the process, the following features were engineered to further explore energy consumption:
 
@@ -49,7 +49,7 @@ NOTE: After the 'Clustering for Feature Engineering Section', a 3D plot of the c
 <br />
 
 
-### 2. Exploratory Data Analysis ([nbviewer version](https://nbviewer.jupyter.org/github/nicolasrosal98/London-Energy-Forecast/blob/master/Jupyter%20Notebooks/Exploratory%20Data%20Analysis.ipynb))
+### 2. Exploratory Data Analysis ([jupyter notebook](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Jupyter%20Notebooks/Exploratory%20Data%20Analysis.ipynb))([nbviewer version](https://nbviewer.jupyter.org/github/nicolasrosal98/London-Energy-Forecast/blob/master/Jupyter%20Notebooks/Exploratory%20Data%20Analysis.ipynb))
 
 The goal of section was to further explore the data set created after 'Cleaning and Feature Engineering' and prepare the data set for the 'Modelling' section. 
 
@@ -76,7 +76,7 @@ The goal of section was to further explore the data set created after 'Cleaning 
 
 <br /><br />
 
-### 3. Modelling ([nbviewer version](https://nbviewer.jupyter.org/github/nicolasrosal98/London-Energy-Forecast/blob/master/Jupyter%20Notebooks/Modeling.ipynb))
+### 3. Modelling ([jupyter notebook](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Jupyter%20Notebooks/Modeling.ipynb))([nbviewer version](https://nbviewer.jupyter.org/github/nicolasrosal98/London-Energy-Forecast/blob/master/Jupyter%20Notebooks/Modeling.ipynb))
 
 The goal of this section was to build an LSTM model capable of fitting energy trends and forecasting energy consumption.
 
