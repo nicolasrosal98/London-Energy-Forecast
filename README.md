@@ -153,7 +153,9 @@ The goal of this section was to build an LSTM model capable of fitting energy tr
 
 * Conclusions
 
-The model built using the overall energy consumption data of London presented the lowest trend and forecast MAE out of all the models. Even though some acorn models showed lower trend MAE, the overall acorn model's trend mean squared error was not lower than that of the Overall Energy in London Model.  
+1. The findings of this project suggest that by looking at previous energy consumption levels (one month worth of readings) it is possible to forecast one month into the future with just 0.417 kWh overall error (best model). The team considered adding other engineered features to the model but this did not return better results. 
+2. The model built using the overall energy consumption data of London presented the lowest trend and forecast MAE out of all the models. Even though some acorn models showed lower trend MAE, the overall acorn model's trend mean squared error was not lower than that of the Overall Energy in London Model. 
+3. 
 
 * Limitations
 
