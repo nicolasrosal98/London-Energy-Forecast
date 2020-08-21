@@ -2,7 +2,9 @@
 
 Using an LSTM model to forecast energy consumption in London (analysis by Acorns included).
 
-Authors: Omar Alejandro Martínez and Nicolás Rosal
+*Authors*: Omar Alejandro Martínez and Nicolás Rosal
+<br /><br />
+
 
 ## Datasets
 
@@ -62,13 +64,13 @@ The goal of section was to further explore the data set created after 'Cleaning 
 * Correlation Analysis -- As a result of the analysis several variables such as 'temperatureLow' and 'temperatureHigh' were eliminated to reduce high dimensionality and prevent high correlation problems. Similarly, a very strong correlation between 'Avg.Dawn', 'Avg.Morning_Afternoon', 'Avg.Evening','Avg.Night', and 'energy_sum' was identified. Nevertheless, all these features were kept for modelling but carefully considered in order to avoid undesired outcomes due to the correlation. All other features presented a low correlation with 'energy_sum', leading to the assumptions that they will have minimum impact on the models. For this reason, a feature importance analysis was performed later. <br />
 ![Heatmap](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/heatmap.png)
 
-* Energy Sum Analysis Over Time -- Plotting energy consumption over time helped to understand how consumption varies throughout the years (months/seasons). Further analysis was made with the different energy sum averages per part of day. <br /> 
+* Energy Sum Analysis Over Time -- Plotting energy consumption over time helped to understand how consumption varies throughout the years (months/seasons). Further analysis was made with the different energy sum averages per part of day. It was found that energy consumption in London has a clear seasonality, with higher consumption during months closer to winter and lower consumption during months closer to summer. <br /> 
 ![Energy Sum over Time](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/energyvstime.png)
 
-* Energy Sum per Type of Contract -- Plotting energy consumptions per contract type allows to see differences in behaviour between different type of clients.<br /> 
+* Energy Sum per Type of Contract -- Plotting energy consumptions per contract type allows to see differences in behaviour between different type of clients. Although there is a difference in usage between contract types, it was hypothezised that 'time of use' contracts would exhibit significantly lower consumption levels than 'standard' contracts. Nevertheless, the findings showed that the difference was not significant as expected. <br /> 
 ![Energy Sum vs. Contract Type](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/ContractType.png)
 
-* Energy Sum per Acorn -- Plotting energy consumption per Acorn helped analyse whether belonging to different acorn groups would affect consumption patters and behaviours. <br /> 
+* Energy Sum per Acorn -- Plotting energy consumption per Acorn helped analyse whether belonging to different acorn groups would affect consumption patters and behaviours. It was found that Acorn A, Acorn D, and Acorn U were the top three acorns in terms of overall energy consumption. Moreover, this analysis showed that, on average, households in all Acorns tend to consume more energy during the Evening. <br /> 
 ![Energy Sum vs. Acorn](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/acorns.png)
 
 * Feature Importance -- To reduce the complexity of the data, a Random Forest's feature importance attribute was used to discover the features that would be important to add in the final dataset. Due to poor visualisations, a picture of the feature importance bar plot created is included below. In here, 'Avg.Dawn', 'Avg.Morning_Afternoon', 'Avg.Evening', and 'Avg.Night' were identified as the most important features. This finding, together with those of the heatmap correlation analysis, led to the decision of selecting only these four features for the modelling section. <br /> 
@@ -153,17 +155,22 @@ The goal of this section was to build an LSTM model capable of fitting energy tr
 
 * Conclusions
 
-1. The findings of this project suggest that by looking at previous energy consumption levels (one month worth of readings) it is possible to forecast one month into the future with just 0.417 kWh overall error (best model). The team considered adding other engineered features to the model but this did not return better results. 
+1. The findings of this project suggest that by looking at previous energy consumption levels (one month worth of readings) it is possible to forecast one month into the future with just 0.417 kWh overall error (best model).  
 2. The model built using the overall energy consumption data of London presented the lowest trend and forecast MAE out of all the models. Even though some acorn models showed lower trend MAE, the overall acorn model's trend mean squared error was not lower than that of the Overall Energy in London Model. 
-3. 
+3. It is interesting that using the model trained with the overall energy consumption data to forecast energy use per acorn returned better results than the model trained with each acorn independently. 
+4. The team considered adding other engineered features to the model but these did not help the model return better results.
+<br />
 
 * Limitations
 
-1. Computational Power -- Given constraints in this area, more extensive and throurough model tuning could not be performed. 
-2. 
+1. Computational Power -- Given constraints in this area, more extensive and throurough model tuning could not be performed. For example, the team intended to build a model trained by individual consumers (LCLid) but, given the higher dimensionality of the data (5560 LCLids with over 600 entries per ID), training this model was not feasible. 
+<br />
 
-* Suggestions
+* Suggestions for further research
+
 1. 
+2. 
+2. 
 
 <br /><br />
 
