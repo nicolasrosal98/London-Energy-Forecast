@@ -148,21 +148,20 @@ The goal of this section was to build an LSTM model capable of fitting energy tr
 |    ![Acorn Forecast](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/forecastfeatures.png)     |
 <br />
   
-* Best Model -- Overall Energy in London Model. This model had the lowest trend and forecast MAE out of all the models. 
-
-| Forecast Test MAE |  
-| ----------------- | 
-| Score: 0.41751    |  
-|     ![Forecast](https://github.com/nicolasrosal98/London-Energy-Forecast/blob/master/Images/energyforecast.png)      |
-<br /><br />
-
+  
 ## Conclusions, Limitations and Suggestions
 
 * Conclusions
 
+The model built using the overall energy consumption data of London presented the lowest trend and forecast MAE out of all the models. Even though some acorn models showed lower trend MAE, the overall acorn model's trend mean squared error was not lower than that of the Overall Energy in London Model.  
+
 * Limitations
 
+1. Computational Power -- Given constraints in this area, more extensive and throurough model tuning could not be performed. 
+2. 
+
 * Suggestions
+1. 
 
 <br /><br />
 
