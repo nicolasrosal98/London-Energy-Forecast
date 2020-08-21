@@ -168,9 +168,10 @@ The goal of this section was to build an LSTM model capable of fitting energy tr
 
 * Suggestions for further research
 
-1. 
-2. 
-2. 
+1. Feature Selection -- It would interesting to include other variables, such as 'Season', 'Holiday', and 'StdorToU', into the model even though these were not identified as important features by the random forest. 
+2. Acorn Information -- Even though the team was able to include Acorns into the analysis, it would be interesting to explore how to include acorns' demographic and socioeconomic details and whether these contribute to better model performance. This data can be found here: [acorn_details.csv](https://www.kaggle.com/jeanmidev/smart-meters-in-london?select=acorn_details.csv) 
+3. Forecasting Energy Consumption by User -- Using energy consumption data per LCLid to train a model. 
+4. Combine Daily Data into Month -- Combine daily data per LCLid into months to train a model capable of forecasting by months into the future. 
 
 <br /><br />
 
