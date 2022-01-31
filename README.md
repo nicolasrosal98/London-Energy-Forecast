@@ -2,7 +2,7 @@
 
 Using an LSTM model to forecast energy consumption in London (analysis by Acorns included).
 
-*Authors*: Omar Alejandro Martínez and Nicolás Rosal
+*Authors*: Nicolás Rosal and Omar Alejandro Martínez
 <br /><br />
 
 
@@ -192,6 +192,8 @@ Max Halford. "FAMD". Prince Documentations. [link](https://github.com/MaxHalford
 
 * LinkedIn: 
 
+[Nicolás Rosal](www.linkedin.com/in/nicolasrosal98)
+
 [Omar Alejandro Martínez](https://www.linkedin.com/in/omar-martinez-garcia-9b2214176/)
 
-[Nicolás Rosal](www.linkedin.com/in/nicolasrosal98)
+
